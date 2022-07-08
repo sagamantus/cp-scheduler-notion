@@ -31,7 +31,24 @@ def clear_data():
         url = f'https://api.notion.com/v1/pages/{row["id"]}'
 
         payload = {
-            "archived": True
+            'archived': True,
+            'properties': {
+                'Start - End': {
+                    'id': '%3C%5Bd%5E',
+                    'type': 'date',
+                    'date': None
+                },
+                'Duration': {
+                    'id': '_Fsx',
+                    'type': 'rich_text',
+                    'rich_text': []
+                },
+                'Name': {
+                    'id': 'title',
+                    'type': 'title',
+                    'title': []
+                }
+            }
         }
 
         r = requests.patch(url, headers={
