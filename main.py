@@ -10,7 +10,10 @@ SITES = ['codeforces', 'at_coder', 'code_chef', 'kick_start', 'top_coder', 'cs_a
          'leet_code']
 SLEEP_TIME = 10800
 
+# Notion Internal Integration Token
 token = os.getenv("TOKEN")
+
+# Notion Dataset/Database ID
 database_id = os.getenv("DATASET_ID")
 
 
