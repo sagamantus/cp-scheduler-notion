@@ -6,7 +6,7 @@ from datetime import datetime
 from datetime import timedelta
 
 # Site codes can be found here: https://kontests.net/api
-SITES = ['codeforces', 'at_coder', 'code_chef', 'kick_start', 'top_coder', 'cs_academy', 'hacker_rank', 'hacker_earth',
+SITES = ['codeforces', 'at_coder', 'code_chef', 'codeforces_gym', 'top_coder', 'cs_academy', 'hacker_rank', 'hacker_earth',
          'leet_code']
 SLEEP_TIME = 10800
 
